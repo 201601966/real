@@ -12,7 +12,7 @@ public class App
 	
     public static void main( String[] args ) {
     	for(String arg : args) {
-    		System.err("parameter: " + arg);
+    		System.out.err("parameter: " + arg);
     	}
     }
 }
