@@ -1,5 +1,5 @@
 package com.your.dream.real;
-import java.util.logging;
+
 /**
  * Hello world!
  *
@@ -13,7 +13,7 @@ public class App
 	
     public static void main( String[] args ) {
     	for(String arg : args) {
-    		logger.log("parameter: " + arg);
+    		log("parameter: " + arg);
     	}
     }
 }
