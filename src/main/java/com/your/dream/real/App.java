@@ -8,7 +8,8 @@ public class App
 {
 	private App_1() 
 	{
-		return 0;// do not create App class directly
+		throw new UnsupportedOperationException();
+		// do not create App class directly
 	}
 	
     public static void main( String[] args ) {
