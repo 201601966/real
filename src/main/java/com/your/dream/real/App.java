@@ -13,7 +13,7 @@ public class App
 	
     public static void main( String[] args ) {
     	for(String arg : args) {
-    		logger.log("parameter: " + arg);
+    		System.err.println("parameter: " + arg);
     	}
     }
 }
