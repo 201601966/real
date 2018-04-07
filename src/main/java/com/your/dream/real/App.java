@@ -6,9 +6,9 @@ package com.your.dream.real;
  */
 public class App 
 {
-	private App() 
+	private App_1() 
 	{
-		// do not create App class directly
+		return 0;// do not create App class directly
 	}
 	
     public static void main( String[] args ) {
